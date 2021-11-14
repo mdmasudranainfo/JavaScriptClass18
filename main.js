@@ -48,13 +48,20 @@ var myarry = [
   "MD Heron Uddin",
   "MD Munsur Rahman"
 ];
-for( var i = 0; i<myarry.length; i++){
-  var index = myarry[i].length;
-  // var indexNumber = index[i];
-  console.log(index);
+
+var hello = 0;
+for( var i = 1; i<myarry.length; i++){
+  
+  if(myarry[hello].length < myarry[i].length){
+    hello = i;
+    
+  }
+
+
  
  
 }
+console.log(myarry[hello]);
 
 
 
